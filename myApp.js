@@ -1,11 +1,10 @@
 let express = require('express');
 let app = express();
 
-app.get('/', (_req, res) => {
-    res.send("Hello Express")
+
+app.get('/', (req, res) => {
+    res.send('Hello Express')
 })
-
-
 
 
 
